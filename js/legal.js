@@ -1,0 +1,2 @@
+document.querySelectorAll('[data-affiliate-status]').forEach(el => { el.textContent = affiliateEnabled() ? 'Als Amazon-Partner verdiene ich an qualifizierten Verkäufen. Bei einem Kauf über einen Partnerlink kann ich eine Provision erhalten.' : 'Aktuell verwenden wir normale Produktlinks ohne Affiliate-Partnerkennung.'; });
+if (affiliateEnabled()) document.querySelectorAll('.adbar').forEach(el => { const note=document.createElement('span'); note.textContent=' Als Amazon-Partner verdiene ich an qualifizierten Verkäufen.'; el.appendChild(note); });
