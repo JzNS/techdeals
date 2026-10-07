@@ -1,5 +1,5 @@
 @echo off
 cd /d "%~dp0.."
-python tools\refresh_prices.py
+node tools\generate-products.cjs
 echo.
 pause

@@ -1,247 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
 <meta charset="UTF-8">
+<script src="js/translations.js"></script><script src="js/i18n.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TechDeals &ndash; USB-C Cables, Bluetooth Earbuds &amp; Power Banks | Top picks on Amazon</title>
-<meta name="description" content="USB-C cables, earbuds and power banks with links to Amazon product pages.">
-<meta name="robots" content="index,follow">
-<meta name="theme-color" content="#131921">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22><rect width=%2232%22 height=%2232%22 rx=%226%22 fill=%22%23131921%22/><text x=%2216%22 y=%2222%22 text-anchor=%22middle%22 font-size=%2218%22 fill=%22%23ffa41c%22 font-family=%22Arial%22>$</text></svg>">
-<meta property="og:type" content="website">
-<meta property="og:title" content="TechDeals &ndash; Cables, Earbuds &amp; Power Banks">
-<meta property="og:description" content="USB-C cables, earbuds and power banks with links to Amazon product pages.">
-<link rel="stylesheet" href="css/style.css">
+<title>TechDeals – Kabel, Ohrhörer und Powerbanks im Überblick</title>
+<meta name="description" content="USB-C-Kabel, Ohrhörer und Powerbanks übersichtlich vergleichen. Mit Produktbildern, Preisständen und Links zum Händlerangebot.">
+<meta name="theme-color" content="#172b3a">
 <meta name="referrer" content="no-referrer">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'none'; font-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://m.media-amazon.com; connect-src 'none'; font-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
 <link rel="canonical" href="https://techdeals.de/">
+<link rel="stylesheet" href="css/style.css">
+<meta property="og:type" content="website">
+<meta property="og:title" content="TechDeals – Technikprodukte im Überblick">
+<meta property="og:description" content="Kabel, Ohrhörer und Powerbanks. Klare Produktinformationen, Bilder und Preisstände.">
 </head>
-<body>
-
-<a class="skip" href="#content">Skip to content</a>
-
-<!-- affiliate hint bar (required: must be visible without scrolling far) -->
-<div class="adbar">Werbung: Diese Website verlinkt auf Amazon-Angebote. <a href="affiliate-disclosure.html">Werbe- und Affiliate-Hinweis</a></div>
-
-<!-- ----------------------------------------------------------- header -->
-<header class="hdr">
-  <div class="hdr-inner">
-    <a class="brand" href="index.html" aria-label="TechDeals home">
-      <b>tech</b>deals
-      <small id="brandLine">Cables &middot; Earbuds &middot; Power Banks</small>
-    </a>
-
-    <div class="search" role="search">
-      <label class="skip" for="search">Search products</label>
-      <select id="searchCat" aria-label="Search category">
-        <option value="all">All</option>
-        <option value="cables">USB-C Cables</option>
-        <option value="earbuds">Earbuds</option>
-        <option value="powerbanks">Power Banks</option>
-      </select>
-      <input id="search" type="search" placeholder="Search cables, earbuds, power banks&hellip;" autocomplete="off">
-      <button type="button" id="searchBtn" aria-label="Search">
-        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="2.4" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg>
-      </button>
-    </div>
-
-    <a class="hdr-side" href="how-we-test.html">
-      <strong>How we pick</strong>
-      About this overview
-    </a>
+<body id="top">
+<a class="skip" href="#content">Zum Inhalt springen</a>
+<div class="adbar">Werbung · Links führen zu Amazon. <a href="affiliate-disclosure.html">Informationen zur Finanzierung</a></div>
+<header class="hdr"><div class="hdr-inner">
+  <a class="brand" href="index.html" aria-label="TechDeals Startseite"><b>tech</b>deals<small>Technik im Überblick</small></a>
+  <div class="search" role="search">
+    <label class="skip" for="search">Produkte durchsuchen</label>
+    <input id="search" type="search" placeholder="Produkt oder Marke suchen …" autocomplete="off">
+    <button type="button" id="searchBtn" aria-label="Suche anzeigen"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg></button>
   </div>
-</header>
-
-<nav class="subnav" aria-label="Categories">
-  <div class="subnav-inner">
-    <button class="tab active" data-cat="all">All products</button>
-    <button class="tab" data-cat="cables">USB-C Cables</button>
-    <button class="tab" data-cat="earbuds">Bluetooth Earbuds</button>
-    <button class="tab" data-cat="powerbanks">Power Banks</button>
-    <span class="sep"></span>
-    <a href="#guide">Buying guides</a>
-    <a href="how-we-test.html">Product selection</a>
-    <a href="deals.html">Product overview</a>
-    <span class="sep"></span>
-    <a href="impressum.html">Imprint</a>
-    <a href="contact.html">Contact</a>
+  <nav class="language-switch" data-language-switch aria-label="Sprache / Language"><a href="?lang=de" hreflang="de" lang="de" aria-label="Deutsch">DE</a><a href="?lang=en" hreflang="en" lang="en" aria-label="English">EN</a></nav>
+  <a class="hdr-side" href="how-we-test.html">Über TechDeals <span aria-hidden="true">↗</span></a>
+</div></header>
+<nav class="subnav" aria-label="Hauptnavigation"><div class="subnav-inner">
+  <a href="#content">Produkte</a><a href="#guide">Kaufberatung</a><a href="how-we-test.html">Unsere Auswahl</a><span class="sep"></span><a href="contact.html">Kontakt</a><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a>
+</div></nav>
+<section class="hero"><div class="hero-inner">
+  <div>
+    <span class="kicker">Kabel · Ohrhörer · Powerbanks</span>
+    <h1>Technik für<br>deinen Alltag.</h1>
+    <p class="sub">Produkte entdecken, wichtige Angaben vergleichen und das passende Händlerangebot ansehen. Klar aufbereitet, mit Bildern und nachvollziehbarem Preisstand.</p>
+    <div class="hero-btns"><a class="btn btn-o" href="#content">Produkte entdecken <span aria-hidden="true">↓</span></a><a class="btn btn-line" href="#guide">Zur Kaufberatung</a></div>
+    <p class="hero-caption">Produktübersicht · Kauf beim jeweiligen Händler auf Amazon</p>
   </div>
-</nav>
-
-<!-- ----------------------------------------------------------- hero -->
-<section class="hero">
-  <div class="hero-inner">
-    <div>
-      <span class="kicker">USB-C cables &middot; Earbuds &middot; Power banks</span>
-      <h1>Explore cables, earbuds and power banks</h1>
-      <p class="sub">Browse products by category and open the relevant Amazon listing for current specifications, prices and seller information. We do not conduct our own product tests.</p>
-      <div class="hero-btns">
-        <a class="btn btn-o" href="#content">Browse all products</a>
-        <a class="btn btn-line" href="#guide">Read the buying guide</a>
-      </div>
-      <ul class="ticks"><li>Links to Amazon.de</li><li>No account on this site</li><li>No analytics</li></ul>
-    </div>
-    <div class="hero-imgs" id="heroImgs"><!-- 4 top products with images --></div>
-  </div>
-</section>
-
-<!-- ----------------------------------------------------------- trust -->
-<section class="trust">
-  <div class="trust-inner">
-    <div class="trust-item">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M13 2 4 14h6l-1 8 9-12h-6z"/></svg>
-      <div><b>Check compatibility</b><span>Read the manufacturer specifications</span></div>
-    </div>
-    <div class="trust-item">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 3 4 6v6c0 5 3.4 8.4 8 9 4.6-.6 8-4 8-9V6z"/><path d="M9 12l2 2 4-4"/></svg>
-      <div><b>Seller information</b><span>Check the terms of each offer</span></div>
-    </div>
-    <div class="trust-item">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 7h13v10H3z"/><path d="M16 10h4l1 3v4h-5z"/><circle cx="7" cy="18" r="1.6"/><circle cx="17.5" cy="18" r="1.6"/></svg>
-      <div><b>Delivery information</b><span>See the respective seller listing</span></div>
-    </div>
-    <div class="trust-item">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 4h16v12H4z"/><path d="M8 20h8"/><path d="M12 16v4"/></svg>
-      <div><b>No own warehouse</b><span>Purchases take place at the listed seller</span></div>
-    </div>
-  </div>
-</section>
-
-<!-- ----------------------------------------------------------- products -->
+  <div class="hero-imgs" id="heroImgs" aria-label="Einblicke in unsere Produktkategorien"></div>
+</div></section>
 <main class="container" id="content">
-
+  <div class="section-heading"><div><span class="kicker">Die Produktübersicht</span><h2>Finde, was zu dir passt.</h2></div><p>Die wichtigsten Angaben auf einen Blick.</p></div>
   <div class="bar">
-    <div class="tabs" role="tablist" aria-label="Product categories">
-      <button class="tab active" data-cat="all">All products</button>
-      <button class="tab" data-cat="cables">USB-C Cables</button>
-      <button class="tab" data-cat="earbuds">Bluetooth Earbuds</button>
-      <button class="tab" data-cat="powerbanks">Power Banks</button>
-      <button class="tab" id="clearSearch" style="display:none">Clear search &times;</button>
+    <div class="tabs" role="group" aria-label="Produktkategorien">
+      <button class="tab active" data-cat="all" aria-pressed="true">Alle Produkte</button><button class="tab" data-cat="cables" aria-pressed="false">USB-C-Kabel</button><button class="tab" data-cat="earbuds" aria-pressed="false">Ohrhörer</button><button class="tab" data-cat="powerbanks" aria-pressed="false">Powerbanks</button><button class="tab" id="clearSearch" style="display:none">Suche zurücksetzen ×</button>
     </div>
-    <div class="bar-right">
-      <span class="count" id="count"></span>
-      <label class="sort">Sort
-        <select id="sort"><option value="default">List order</option><option value="name">Product name A–Z</option></select>
-      </label>
-    </div>
+    <div class="bar-right"><span class="count" id="count"></span><label class="sort">Sortieren <select id="sort"><option value="default">Standard</option><option value="name">Produktname A–Z</option><option value="price-asc">Preis aufsteigend</option><option value="price-desc">Preis absteigend</option></select></label></div>
   </div>
-
-  <p class="stamp" id="stamp">Current prices and availability are shown on Amazon.</p>
-
+  <p class="stamp" id="stamp">Den aktuellen Preis und Versandkosten bitte im Händlerangebot prüfen.</p>
   <div class="grid" id="grid" aria-live="polite"></div>
-
-  <!-- ------------------------------------------------------- guide -->
-  <section class="block" id="guide">
-    <h2 class="h2">Buying guide: what actually matters</h2>
-    <p class="lead">Three specs decide whether an accessory is good or a waste of money. Short version, no marketing talk.</p>
-    <div class="cols">
-      <details class="guide" open>
-        <summary>USB-C cable: watt, chip, length</summary>
-        <ul>
-          <li><b>100W Power Delivery</b> covers phones, tablets and most 13&Prime;/14&Prime; laptops.</li>
-          <li><b>E-Marker chip</b> is mandatory from 5&nbsp;A / 100&nbsp;W &mdash; without it the cable can overheat.</li>
-          <li><b>240W / USB 4</b> only makes sense for newer MacBooks and iPads.</li>
-          <li>Data speed is separate from charging: 480&nbsp;Mbps is fine for file-free charging.</li>
-          <li>Short cables (0.5&ndash;1&nbsp;m) lose less power and stay cooler.</li>
-        </ul>
-      </details>
-      <details class="guide">
-        <summary>Earbuds: fit, codec, battery</summary>
-        <ul>
-          <li><b>Bluetooth 5.3+</b> = stabler connection, lower lag in videos and games.</li>
-          <li><b>ANC</b> is worth it on trains and in open-plan offices; skip it if you only listen at home.</li>
-          <li><b>IPX4 or better</b> for sport &mdash; sweat is the main reason earbuds die early.</li>
-          <li>Real battery time is always lower than the advertised figure; 6&ndash;7&nbsp;h per charge is good.</li>
-          <li>Fit beats specs: silicone tips that seal the ear canal give more bass than any codec.</li>
-        </ul>
-      </details>
-      <details class="guide">
-        <summary>Power bank: mAh, output, travel rules</summary>
-        <ul>
-          <li><b>10,000&nbsp;mAh</b> &asymp; 2&ndash;3 phone charges, <b>20,000&nbsp;mAh</b> also charges a tablet or laptop.</li>
-          <li>Look at <b>output wattage</b>, not capacity: 20W+ is real fast charging, 12W is not.</li>
-          <li><b>USB-C PD in/out</b> lets you recharge the bank itself with the same cable.</li>
-          <li>Flights: up to 100&nbsp;Wh in hand luggage &mdash; every model listed here qualifies.</li>
-          <li>Usable capacity is roughly 65&ndash;70% of the printed mAh figure. That is physics, not a scam.</li>
-        </ul>
-      </details>
+  <section class="block buying-guides" id="guide">
+    <div class="section-heading"><div><span class="kicker">Vor dem Kauf</span><h2>Worauf es ankommt.</h2></div></div>
+    <div class="guide-tiles">
+      <a href="guide-usb-c.html"><span class="guide-number">01</span><h3>USB-C-Kabel</h3><p>Ladeleistung, Datenübertragung und Länge passend zu deinem Gerät auswählen.</p><span class="guide-link">Zum Ratgeber ↗</span></a>
+      <a href="guide-earbuds.html"><span class="guide-number">02</span><h3>Ohrhörer</h3><p>Passform, Bedienung und Akkulaufzeit für deinen Alltag abwägen.</p><span class="guide-link">Zum Ratgeber ↗</span></a>
+      <a href="guide-powerbank.html"><span class="guide-number">03</span><h3>Powerbanks</h3><p>Kapazität, Anschlüsse und Ladeleistung auf deinen Bedarf abstimmen.</p><span class="guide-link">Zum Ratgeber ↗</span></a>
     </div>
   </section>
-
-  <section class="block note-inline-sec">
-      <p><b>How this works:</b> Links open Amazon.de. Review the seller, total price, shipping and return terms there before ordering. See our <a href="affiliate-disclosure.html">advertising disclosure</a>.</p>
-    </section>
-
-    <!-- ------------------------------------------------------- sponsoring -->
-    <section class="block sponsor-sec" id="sponsor">
-      <div class="sponsor-slot" aria-label="Sponsored placement placeholder">
-        <span class="slot-tag">Sponsored &mdash; available</span>
-        <p><b>Your brand here.</b> A clearly marked sponsored slot for brands in this space. Always labelled as advertising, never mixed into our organic picks.</p>
-      </div>
-      <a class="btn btn-line btn-sm" href="sponsor.html">Advertise with TechDeals &rarr;</a>
-    </section>
-
-  </main>
-
-<!-- ----------------------------------------------------------- footer -->
-<div class="totop"><a href="#top" id="toTop">Back to top &#9650;</a></div>
-
-<footer class="site">
-  <div class="cols4">
-    <div>
-      <h4>Shop</h4>
-      <ul>
-        <li><a href="index.html#cables">USB-C Cables</a></li>
-        <li><a href="index.html#earbuds">Bluetooth Earbuds</a></li>
-        <li><a href="index.html#powerbanks">Power Banks</a></li>
-        <li><a href="deals.html">Product overview</a></li>
-      </ul>
-    </div>
-    <div>
-      <h4>Guides</h4>
-      <ul>
-        <li><a href="how-we-test.html">Product selection</a></li>
-        <li><a href="guide-usb-c.html">USB-C cable guide</a></li>
-        <li><a href="guide-earbuds.html">Earbud guide</a></li>
-        <li><a href="guide-powerbank.html">Power bank guide</a></li>
-      </ul>
-    </div>
-    <div>
-      <h4>Service</h4>
-      <ul>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="faq.html">FAQ &amp; ordering</a></li>
-        <li><a href="faq.html#returns">Returns &amp; warranty</a></li>
-        <li><a href="faq.html#shipping">Shipping &amp; delivery</a></li>
-      </ul>
-    </div>
-    <div>
-      <h4>Legal</h4>
-      <ul>
-        <li><a href="impressum.html">Imprint (Impressum)</a></li>
-        <li><a href="datenschutz.html">Privacy policy</a></li>
-        <li><a href="affiliate-disclosure.html">Affiliate disclosure</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="fbar">
-    <div class="inner">
-      <div class="legal">
-        <a href="impressum.html">Imprint</a>
-        <a href="datenschutz.html">Privacy</a>
-        <a href="affiliate-disclosure.html">Affiliate disclosure</a>
-        <a href="contact.html">Contact</a>
-      </div>
-      <p>&copy; <span data-year>2026</span> TechDeals. Produktübersicht mit Werbelinks. Kauf beim jeweiligen Händler auf Amazon.de.</p>
-      <p>Amazon and the Amazon logo, and the Amazon Prime logo, are trademarks of Amazon.com, Inc. or its affiliates.</p>
-    </div>
-  </div>
-</footer>
-
-<script src="js/config.js"></script>
-<script src="js/products.js"></script>
-<script src="js/cards.js"></script>
-<script src="js/main.js"></script>
-<script src="js/legal.js"></script>
+  <section class="block transparency-note"><h2>Transparent informiert.</h2><p>TechDeals bietet eine Produktübersicht und führt keine eigenen Labortests durch. Bestellungen erfolgen beim jeweiligen Händler auf Amazon. Details findest du in unserer <a href="how-we-test.html">Auswahlbeschreibung</a> und im <a href="affiliate-disclosure.html">Werbehinweis</a>.</p></section>
+</main>
+<div class="totop"><a href="#top">Nach oben ↑</a></div>
+<footer class="site"><div class="cols4">
+  <div><h4>TechDeals</h4><p class="footer-intro">Technikprodukte.<br>Übersichtlich aufbereitet.</p></div>
+  <div><h4>Produkte &amp; Ratgeber</h4><ul><li><a href="index.html#cables">USB-C-Kabel</a></li><li><a href="index.html#earbuds">Ohrhörer</a></li><li><a href="index.html#powerbanks">Powerbanks</a></li><li><a href="how-we-test.html">Unsere Auswahl</a></li></ul></div>
+  <div><h4>Informationen</h4><ul><li><a href="contact.html">Kontakt</a></li><li><a href="faq.html">Häufige Fragen</a></li><li><a href="sponsor.html">Werbeanfragen</a></li></ul></div>
+  <div><h4>Rechtliches</h4><ul><li><a href="impressum.html">Impressum</a></li><li><a href="datenschutz.html">Datenschutz</a></li><li><a href="affiliate-disclosure.html">Werbe- und Affiliate-Hinweis</a></li></ul></div>
+</div><div class="fbar"><div class="inner"><p>© <span data-year>2026</span> TechDeals. Kauf beim jeweiligen Händler auf Amazon.de.</p></div></div></footer>
+<script src="js/config.js"></script><script src="js/products.js"></script><script src="js/product-content.js"></script><script src="js/cards.js"></script><script src="js/main.js"></script><script src="js/legal.js"></script>
 </body>
 </html>

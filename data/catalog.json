@@ -3,24 +3,24 @@
     "site": "TechDeals",
     "marketplace": "www.amazon.de",
     "currency": "EUR",
-    "note": "Master-Datei fuer die Produkt-Pflege. Bearbeiten, dann tools/refresh_prices.py laufen lassen (doppelklick auf tools/refresh.bat). Danach liegen die aktuellen Daten in js/products.js und js/live.js.",
+    "note": "Produktpflege mit kurzen Anzeigenamen; danach node tools/generate-products.cjs ausführen.",
     "updated": "2026-10-06 10:00 UTC"
   },
   "categories": {
     "all": {
-      "name": "All products",
+      "name": "Alle Produkte",
       "icon": ""
     },
     "cables": {
-      "name": "USB-C Cables",
+      "name": "USB-C-Kabel",
       "icon": "&#128268;"
     },
     "earbuds": {
-      "name": "Bluetooth Earbuds",
+      "name": "Ohrhörer",
       "icon": "&#127911;"
     },
     "powerbanks": {
-      "name": "Power Banks",
+      "name": "Powerbanks",
       "icon": "&#128267;"
     }
   },
@@ -40,7 +40,12 @@
         "E-Marker chip",
         "Nylon braided"
       ],
-      "checkedAt": "2026-10-06"
+      "checkedAt": "2026-10-06",
+      "displayName": "UGREEN USB-C-Kabel",
+      "displaySpecs": [
+        "100 W",
+        "Nylon"
+      ]
     },
     {
       "asin": "B0BR3L78XN",
@@ -56,7 +61,12 @@
         "2 m × 2",
         "480 Mbps"
       ],
-      "checkedAt": "2026-10-06"
+      "checkedAt": "2026-10-06",
+      "displayName": "INIU USB-C-Kabel",
+      "displaySpecs": [
+        "240 W",
+        "2er-Set · 2 m"
+      ]
     },
     {
       "asin": "B0FJL4CB6F",
@@ -72,7 +82,12 @@
         "2 m pack",
         "TPE jacket"
       ],
-      "checkedAt": "2026-10-06"
+      "checkedAt": "2026-10-06",
+      "displayName": "RAVIAD USB-C-Kabel",
+      "displaySpecs": [
+        "100 W",
+        "2er-Set"
+      ]
     },
     {
       "asin": "B09GXRWQYQ",
@@ -88,7 +103,12 @@
         "100W PD",
         "4K DisplayPort"
       ],
-      "checkedAt": "2026-10-06"
+      "checkedAt": "2026-10-06",
+      "displayName": "USB-C-Kabel mit Videoausgabe",
+      "displaySpecs": [
+        "100 W",
+        "10 Gbit/s"
+      ]
     },
     {
       "asin": "B0BW989F4Y",
@@ -104,7 +124,12 @@
         "100W PD",
         "2 m"
       ],
-      "checkedAt": "2026-10-06"
+      "checkedAt": "2026-10-06",
+      "displayName": "CAKOBLE USB-C-Kabel",
+      "displaySpecs": [
+        "100 W",
+        "2 m"
+      ]
     },
     {
       "asin": "B0D95W3L7X",
@@ -120,7 +145,12 @@
         "E-Marker",
         "Aluminium shell"
       ],
-      "checkedAt": "2026-10-06"
+      "checkedAt": "2026-10-06",
+      "displayName": "SKW USB-C-Kabel",
+      "displaySpecs": [
+        "100 W",
+        "E-Marker"
+      ]
     },
     {
       "asin": "B0BTYCRJSS",
@@ -137,7 +167,12 @@
         "40 h battery",
         "IPX5"
       ],
-      "checkedAt": "2026-10-06"
+      "checkedAt": "2026-10-06",
+      "displayName": "soundcore P20i",
+      "displaySpecs": [
+        "Bluetooth 5.3",
+        "In-Ear"
+      ]
     },
     {
       "asin": "B0HJC9BBFR",
@@ -153,7 +188,12 @@
         "6D stereo",
         "ENC mic"
       ],
-      "checkedAt": "2026-10-06"
+      "checkedAt": "2026-10-06",
+      "displayName": "Bluetooth-In-Ear-Ohrhörer",
+      "displaySpecs": [
+        "Bluetooth 5.4",
+        "ENC-Mikrofon"
+      ]
     },
     {
       "asin": "B0HGWSGVB1",
@@ -169,7 +209,12 @@
         "Translation",
         "IPX7"
       ],
-      "checkedAt": "2026-10-06"
+      "checkedAt": "2026-10-06",
+      "displayName": "Open-Ear-Ohrhörer",
+      "displaySpecs": [
+        "Bluetooth",
+        "Offene Bauform"
+      ]
     },
     {
       "asin": "B0BCKHQGJN",
@@ -186,7 +231,12 @@
         "Deep bass",
         "Touch control"
       ],
-      "checkedAt": "2026-10-06"
+      "checkedAt": "2026-10-06",
+      "displayName": "Bluetooth-Ohrhörer",
+      "displaySpecs": [
+        "Bluetooth 5.4",
+        "Touch-Bedienung"
+      ]
     },
     {
       "asin": "B0H8P8CNMF",
@@ -202,7 +252,12 @@
         "40 h playtime",
         "IP7"
       ],
-      "checkedAt": "2026-10-06"
+      "checkedAt": "2026-10-06",
+      "displayName": "MORELOCO In-Ear-Ohrhörer",
+      "displaySpecs": [
+        "Bluetooth 5.4",
+        "Ladecase mit Anzeige"
+      ]
     },
     {
       "asin": "B0CJ538WPG",
@@ -218,7 +273,12 @@
         "48 h playtime",
         "IP7"
       ],
-      "checkedAt": "2026-10-06"
+      "checkedAt": "2026-10-06",
+      "displayName": "In-Ear-Ohrhörer mit Ladecase",
+      "displaySpecs": [
+        "Bluetooth 5.3",
+        "LED-Anzeige"
+      ]
     },
     {
       "asin": "B0DCYR5VNR",
@@ -234,7 +294,12 @@
         "Built-in cable",
         "3 devices"
       ],
-      "checkedAt": "2026-10-06"
+      "checkedAt": "2026-10-06",
+      "displayName": "INIU Powerbank",
+      "displaySpecs": [
+        "20.000 mAh",
+        "45 W"
+      ]
     },
     {
       "asin": "B0HDQ3BZL4",
@@ -250,7 +315,12 @@
         "LCD display",
         "4 outputs"
       ],
-      "checkedAt": "2026-10-06"
+      "checkedAt": "2026-10-06",
+      "displayName": "USB-C-Powerbank",
+      "displaySpecs": [
+        "20.000 mAh",
+        "LCD-Anzeige"
+      ]
     },
     {
       "asin": "B0F6LTV18Z",
@@ -266,7 +336,12 @@
         "5000 mAh",
         "20W PD"
       ],
-      "checkedAt": "2026-10-06"
+      "checkedAt": "2026-10-06",
+      "displayName": "Podoru Magnet-Powerbank",
+      "displaySpecs": [
+        "5.000 mAh",
+        "Kabelloses Laden"
+      ]
     },
     {
       "asin": "B0FLY676TH",
@@ -282,7 +357,12 @@
         "Qi wireless",
         "Slim 15 mm"
       ],
-      "checkedAt": "2026-10-06"
+      "checkedAt": "2026-10-06",
+      "displayName": "AOGUERBE Magnet-Powerbank",
+      "displaySpecs": [
+        "10.000 mAh",
+        "Kabelloses Laden"
+      ]
     },
     {
       "asin": "B0CTH7L29Z",
@@ -298,7 +378,12 @@
         "20000 mAh",
         "USB-C in/out"
       ],
-      "checkedAt": "2026-10-06"
+      "checkedAt": "2026-10-06",
+      "displayName": "JUOVI Powerbank",
+      "displaySpecs": [
+        "20.000 mAh",
+        "45 W"
+      ]
     },
     {
       "asin": "B0D63H6KKV",
@@ -314,7 +399,12 @@
         "20000 mAh",
         "Airline OK"
       ],
-      "checkedAt": "2026-10-06"
+      "checkedAt": "2026-10-06",
+      "displayName": "NOBIS Powerbank",
+      "displaySpecs": [
+        "20.000 mAh",
+        "45 W"
+      ]
     }
   ]
 }

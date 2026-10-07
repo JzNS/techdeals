@@ -1,6 +1,81 @@
 # Veröffentlichung von TechDeals
 
-Statische Produktübersicht ohne externe Bilder, Analyse, Preisfeeds oder Browser-Speicher.
+Produktübersicht mit Bildern und datierten Preisen. Keine Analyse oder Browser-Speicherung.
+
+## Sprache
+
+Die Seite bietet Deutsch und Englisch einschließlich Ratgebern, Kontakt und
+rechtlichen Informationen. Ohne Auswahl gilt die bevorzugte Browsersprache:
+Deutsch bei `de`, ansonsten Englisch. DE / EN im Kopfbereich schaltet um;
+`?lang=de` und `?lang=en` überschreiben die Erkennung. Interne Links behalten die
+Auswahl bei. Die Sprache wird nicht in Cookies oder Browser-Speicher geschrieben.
+Preise bleiben in Euro, Händlerlinks führen in beiden Sprachen zu Amazon.de.
+Originale Händler-Produktnamen bleiben unter Produktdetails erhalten.
+Englische Rechtstexte sind Übersetzungen; noch offene Angaben bleiben auch dort
+als Entwurf erkennbar. Änderungen an deutschen Texten auch in js/translations.js
+pflegen.
+
+## GitHub und Domain
+
+Repository: https://github.com/JzNS/techdeals
+Die vorbereitete Version liegt auf `codex/bilingual-site`. GitHub Pages ist im
+Repository bereits aktiviert; dieser Branch ersetzt die bestehende öffentliche
+Seite nicht automatisch. Die Quellen nur als Code auf GitHub verwalten. Für die
+Veröffentlichung der Affiliate-Seite einen passenden Hoster wählen und ausschließlich
+den freigegebenen Build aus dist hochladen.
+
+`techdeals.com` ist laut Verisign-Domainregister bereits registriert
+(Registrierung 20. August 1997; geprüft am 7. Oktober 2026). GitHub verkauft oder
+registriert keine Domain. Eine eigene Domain zuerst erwerben bzw. vorhandenes
+Eigentum bestätigen, dann beim ausgewählten Hoster verbinden. Die bereits
+vorbereitete Adresse techdeals.de ist weiterhin unbestätigt. Keine automatische
+Umstellung auf eine fremde Domain vornehmen.
+
+Ein möglicher Ablauf ist ein geeigneter Hoster mit GitHub-Anbindung: Repository
+verbinden, `node tools/build.cjs` als Build-Befehl und `dist` als Ausgabeordner
+einrichten. Der Build wird erst erfolgreich, wenn die unten genannten offenen
+Voraussetzungen tatsächlich geklärt sind. Danach Domain und www-Weiterleitung
+nach den DNS-Vorgaben dieses Hosters konfigurieren.
+
+Lokale Vorschau starten: `node tools/preview-server.cjs`, dann
+http://127.0.0.1:4173/ öffnen. tools/refresh.bat erzeugt dieselbe Vorschau neu;
+es startet nicht mehr das alte Scraping-Werkzeug.
+
+## Bilder und Preise
+
+`node tools/generate-products.cjs` stellt die lokale Vorschau aus dem vorhandenen
+Katalog wieder her. Auf file://, localhost und 127.0.0.1 sind die archivierten
+Amazon-Bilder und historischen Preise sichtbar. Die gelbe Vorschaukennzeichnung
+weist auf Datenquelle und alte Preisstände hin. Auch lokale Bildabrufe übertragen
+Verbindungsdaten an Amazon. Ausgelesene Daten sind keine freigegebenen API-Inhalte.
+
+Der öffentliche Build erzeugt einen eigenen Katalog ohne diese Vorschauwerte.
+Die öffentliche Website lädt externe freigegebene Amazon-Bilder erst nach Klick;
+lokal gespeicherte Bilder werden direkt angezeigt. Einwilligung gilt im Speicher
+der geöffneten Seite; sie erzeugt keine Cookies oder Local-Storage-Einträge.
+
+Zwei Wege für die Veröffentlichung:
+
+1. Eigene/lizenzierte Bilder nach assets/products legen. Einträge in
+   data/approved-content.json anlegen mit asin, contentSource: "publisher",
+   image: "assets/products/B08D6NCQ1Z.jpg", rightsConfirmed: true und
+   rightsReference: "eigene Aufnahme / konkrete Nutzungserlaubnis".
+   Für Preise zusätzlich price, priceSource (konkrete Prüfquelle),
+   vatIncluded: true und updatedAt (tatsächlicher ISO-Abrufzeitpunkt mit Zeitzone).
+   Bestätigungen müssen der tatsächlichen Rechte- und Datenlage entsprechen.
+2. Bei Amazon PartnerNet anmelden und Creators-API-Zugang einrichten. Eine echte
+   GetItems-Antwort mit Images und OffersV2 importieren:
+   `node tools/import-creators.cjs <antwort.json> <tatsächliche-abrufzeit-ISO>`.
+   Danach die echte Partner-ID in js/config.js setzen. Der Importer hält keine
+   Zugangsdaten und führt keinen API-Abruf aus; automatische Aktualisierung
+   muss auf dem Server/Build-System eingerichtet werden.
+
+Preise für die öffentliche Website verfallen nach 24 Stunden automatisch;
+API-Bilder ebenso. Ein erneuter Import/Build muss regelmäßig vor Ablauf erfolgen.
+Alte API-Werte werden beim Build nicht übernommen. Originale Bilddateien von
+Amazon werden weder heruntergeladen noch kopiert. Keine unbelegten Streichpreise,
+Rabattprozente oder pauschalen Versand-/Rückgabezusagen. Quellen und Programmregeln
+müssen zusätzlich zum technischen Ablauf stimmen.
 
 ## Offene Voraussetzungen
 

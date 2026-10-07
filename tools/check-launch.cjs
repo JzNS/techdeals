@@ -1,8 +1,13 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const root = path.resolve(__dirname, '..');
+const {makeCatalog} = require('./catalog-content.cjs');
 const config = JSON.parse(fs.readFileSync(path.join(root, 'launch-config.json'), 'utf8'));
 const errors = [];
+try {
+  const catalog = makeCatalog({preview:false});
+  if (!catalog.products.some(p => p.image || p.price)) errors.push('Noch keine freigegebenen Bilder/Preise: eigene lizenzierte Inhalte oder echte Amazon-API-Daten ergänzen.');
+} catch (error) { errors.push(error.message); }
 for (const [key, value] of Object.entries(config)) {
   if (key !== 'domain' && value !== true) errors.push('Noch zu bestätigen: ' + key);
 }
