@@ -1,0 +1,318 @@
+// ============================================================
+//  Automatisch erzeugt - nicht von Hand editieren.
+//  Quelle: data/catalog.json  +  amazon.de  (tools/refresh_prices.py)
+//  Stand: 2026-10-07 09:25 UTC
+// ============================================================
+
+const CATEGORIES = {
+  "all": {
+    "name": "All products",
+    "icon": ""
+  },
+  "cables": {
+    "name": "USB-C Cables",
+    "icon": "&#128268;"
+  },
+  "earbuds": {
+    "name": "Bluetooth Earbuds",
+    "icon": "&#127911;"
+  },
+  "powerbanks": {
+    "name": "Power Banks",
+    "icon": "&#128267;"
+  }
+};
+
+const PRODUCTS = [
+  {
+    "asin": "B08D6NCQ1Z",
+    "category": "cables",
+    "title": "UGREEN USB C Kabel 100W Ladekabel USB-C PD 3.0 Schnellladekabel",
+    "image": "https://m.media-amazon.com/images/I/71f6Kt9coBL._AC_SL1500_.jpg",
+    "badge": "Bestseller",
+    "price": "8.91",
+    "listPrice": "12.99",
+    "rating": 4.8,
+    "reviews": 32944,
+    "specs": [
+      "100W PD 3.0",
+      "E-Marker chip",
+      "Nylon braided"
+    ],
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "asin": "B0BR3L78XN",
+    "category": "cables",
+    "title": "INIU 240W USB C Kabel, [2Stück 2m] PD Schnellladekabel USB C auf USBC Kabel",
+    "image": "https://m.media-amazon.com/images/I/814lZbU+YYL._AC_SL1500_.jpg",
+    "price": "8.48",
+    "listPrice": "16.99",
+    "rating": 4.6,
+    "reviews": 18080,
+    "specs": [
+      "240W PD 3.1",
+      "2 m × 2",
+      "480 Mbps"
+    ],
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "asin": "B0FJL4CB6F",
+    "category": "cables",
+    "title": "RAVIAD 100W USB C auf USB C Kabel [2Stück 1M] 5A Schnellladekabel Ladekabel",
+    "image": "https://m.media-amazon.com/images/I/81Wjy7+zEpL._SL1500_.jpg",
+    "price": "8.99",
+    "listPrice": null,
+    "rating": 4.8,
+    "reviews": 3255,
+    "specs": [
+      "100W PD",
+      "2 m pack",
+      "TPE jacket"
+    ],
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "asin": "B09GXRWQYQ",
+    "category": "cables",
+    "title": "USB-C to USB-C 3.1 Gen2 Cable 10Gbps Data Transfer, 100W 20V/5A 3.3ft USB Type C PD Fast Charging Cable 4K Video Output Compatible with Thunderbolt 3, MacBook Pro, Galaxy S21 1M, Smartphone",
+    "image": "https://m.media-amazon.com/images/I/61Erg3KU0CL._SL1500_.jpg",
+    "price": "10.19",
+    "listPrice": "14.99",
+    "rating": 4.5,
+    "reviews": 3557,
+    "specs": [
+      "10 Gbps data",
+      "100W PD",
+      "4K DisplayPort"
+    ],
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "asin": "B0BW989F4Y",
+    "category": "cables",
+    "title": "CAKOBLE USB C Kabel auf USB C 2M, USB 3.2 Gen2 Typ C ladekabel, 20 Gbps Datenübertragung, 100W 20V/5A Schnellladekabel,4K @@ 60Hz Videoübertragung für Laptop, Mobiltelefon, Monitor, Geräte",
+    "image": "https://m.media-amazon.com/images/I/61oh5AvOROL._AC_SL1500_.jpg",
+    "price": "13.59",
+    "listPrice": "21.99",
+    "rating": 4.6,
+    "reviews": 3590,
+    "specs": [
+      "20 Gbps",
+      "100W PD",
+      "2 m"
+    ],
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "asin": "B0D95W3L7X",
+    "category": "cables",
+    "title": "SKW USB-C auf USB-C 3.1 Kabel 10 Gbit/s, 4K Video Übertragung, 100W (5A) Schnellladekabel mit E-Marker, 1m – Hochgeschwindigkeit & zuverlässige Datenübertragung",
+    "image": "https://m.media-amazon.com/images/I/515AJpFfYQL._SL1500_.jpg",
+    "price": "11.68",
+    "listPrice": null,
+    "rating": 4.1,
+    "reviews": 50,
+    "specs": [
+      "100W PD",
+      "E-Marker",
+      "Aluminium shell"
+    ],
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "asin": "B0BTYCRJSS",
+    "category": "earbuds",
+    "title": "soundcore by Anker P20i Kabellose Bluetooth Kopfhörer in-Ear, 10mm Treiber",
+    "image": "https://m.media-amazon.com/images/I/5181ILcyQJL._AC_SL1500_.jpg",
+    "badge": "Bestseller",
+    "price": "19.99",
+    "listPrice": "29.99",
+    "rating": 4.3,
+    "reviews": 116182,
+    "specs": [
+      "BT 5.3",
+      "40 h battery",
+      "IPX5"
+    ],
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "asin": "B0HJC9BBFR",
+    "category": "earbuds",
+    "title": "2026 Kopfhörer Kabellos Bluetooth 5.4 Kopfhörer, 6D-Stereo Ohrhörer in Ear",
+    "image": "https://m.media-amazon.com/images/I/61UJ6G4jJHL._AC_SL1500_.jpg",
+    "price": "19.99",
+    "listPrice": "32.99",
+    "rating": 4.4,
+    "reviews": 24044,
+    "specs": [
+      "BT 5.4",
+      "6D stereo",
+      "ENC mic"
+    ],
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "asin": "B0HGWSGVB1",
+    "category": "earbuds",
+    "title": "Offene Ohr Kabellose Ohrhörer, Sport Bluetooth mit Echtzeitübersetzung",
+    "image": "https://m.media-amazon.com/images/I/71iJM+l4XgL._AC_SL1500_.jpg",
+    "price": "33.99",
+    "listPrice": null,
+    "rating": 4.6,
+    "reviews": 33,
+    "specs": [
+      "Open-ear",
+      "Translation",
+      "IPX7"
+    ],
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "asin": "B0BCKHQGJN",
+    "category": "earbuds",
+    "title": "Kopfhörer Kabellos Bluetooth, Bluetooth 5.4 Kopfhörer, Tiefer Bass Ohrhörer",
+    "image": "https://m.media-amazon.com/images/I/71vfIyTVo5L._AC_SL1500_.jpg",
+    "badge": "Bestseller",
+    "price": "27.99",
+    "listPrice": "34.99",
+    "rating": 4.4,
+    "reviews": 61002,
+    "specs": [
+      "BT 5.4",
+      "Deep bass",
+      "Touch control"
+    ],
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "asin": "B0H8P8CNMF",
+    "category": "earbuds",
+    "title": "MORELOCO Bluetooth Kopfhörer, Kopfhörer Kabellos Bluetooth 5.4 In-Ear Earbuds mit 4 ENC Mikrofonen Geräuschunterdrückung, Tiefer Bass HiFi Sound, 40 Std. Gesamtspielzeit, IP7 Wasserdicht, Dual LED",
+    "image": "https://m.media-amazon.com/images/I/71DeEsbBzQL._AC_SL1500_.jpg",
+    "price": "15.99",
+    "listPrice": "19.99",
+    "rating": 3.8,
+    "reviews": 4,
+    "specs": [
+      "BT 5.4",
+      "40 h playtime",
+      "IP7"
+    ],
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "asin": "B0CJ538WPG",
+    "category": "earbuds",
+    "title": "Bluetooth 5.3 Kopfhörer, In Ear Kopfhörer Kabellos mit 4 Mic, 48H Tiefer Bass Spielzeit Wireless Earbud, LED-Anzeige, Bluetooth Ohrhörer mit ENC Noise Cancelling, IP7 Wasserdicht Kopfhörer Sport USB-C",
+    "image": "https://m.media-amazon.com/images/I/71AQsgMSXGL._AC_SL1500_.jpg",
+    "price": "23.99",
+    "listPrice": "29.99",
+    "rating": 4.3,
+    "reviews": 8469,
+    "specs": [
+      "4 ANC mics",
+      "48 h playtime",
+      "IP7"
+    ],
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "asin": "B0DCYR5VNR",
+    "category": "powerbanks",
+    "title": "INIU 45W Power Bank, Klein 20000mAh Handyakkus mit Integriertem USB-C Kabel",
+    "image": "https://m.media-amazon.com/images/I/71mXxvSK76L._AC_SL1500_.jpg",
+    "price": "25.81",
+    "listPrice": "39.99",
+    "rating": 4.5,
+    "reviews": 6185,
+    "specs": [
+      "45W PD",
+      "Built-in cable",
+      "3 devices"
+    ],
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "asin": "B0HDQ3BZL4",
+    "category": "powerbanks",
+    "title": "Power Bank 20000 mAh 22.5 W PD3.0 QC4.0 Externer Handyakku PD20W Schnellladen Powerbank mit LCD-Display USB-C Ausgänge und Eingänge Tragbares Ladegerät mit Smartphones",
+    "image": "https://m.media-amazon.com/images/I/61wvg516GcL._AC_SL1446_.jpg",
+    "price": "10.99",
+    "listPrice": "19.99",
+    "rating": 4.4,
+    "reviews": 2128,
+    "specs": [
+      "22.5W PD",
+      "LCD display",
+      "4 outputs"
+    ],
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "asin": "B0F6LTV18Z",
+    "category": "powerbanks",
+    "title": "Podoru Powerbank für Magsafe, 5000mAh Mini Wireless Power Bank für iPhone",
+    "image": "https://m.media-amazon.com/images/I/61NhQsicOmL._AC_SL1500_.jpg",
+    "price": "18.04",
+    "listPrice": null,
+    "rating": 4.4,
+    "reviews": 1371,
+    "specs": [
+      "MagSafe",
+      "5000 mAh",
+      "20W PD"
+    ],
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "asin": "B0FLY676TH",
+    "category": "powerbanks",
+    "title": "AOGUERBE Powerbank für MagSafe, 10000mAh Magnetische Power Bank für iPhone",
+    "image": "https://m.media-amazon.com/images/I/51XfL5SNVIL._AC_SL1500_.jpg",
+    "price": "24.99",
+    "listPrice": "32.99",
+    "rating": 4.4,
+    "reviews": 1035,
+    "specs": [
+      "10000 mAh",
+      "Qi wireless",
+      "Slim 15 mm"
+    ],
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "asin": "B0CTH7L29Z",
+    "category": "powerbanks",
+    "title": "JUOVI Power Bank, Tragbare Powerbank 45W 20000mAh Schnellladefunktion",
+    "image": "https://m.media-amazon.com/images/I/71J9bdgehbL._AC_SL1500_.jpg",
+    "price": "32.99",
+    "listPrice": "35.99",
+    "rating": 4.5,
+    "reviews": 4588,
+    "specs": [
+      "45W PD",
+      "20000 mAh",
+      "USB-C in/out"
+    ],
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "asin": "B0D63H6KKV",
+    "category": "powerbanks",
+    "title": "NOBIS Power Bank, Powerbank 20000mAh, 45W Externe Handyakkus Schnellladen",
+    "image": "https://m.media-amazon.com/images/I/51SMg0amvSL._AC_SL1500_.jpg",
+    "price": "32.99",
+    "listPrice": "34.99",
+    "rating": 4.2,
+    "reviews": 5575,
+    "specs": [
+      "45W PD",
+      "20000 mAh",
+      "Airline OK"
+    ],
+    "checkedAt": "2026-10-06"
+  }
+];

@@ -1,0 +1,332 @@
+// ============================================================
+//  Automatisch erzeugt - nicht von Hand editieren.
+//  Quelle: data/catalog.json  +  amazon.de  (tools/refresh_prices.py)
+//  Stand: 2026-10-07 09:25 UTC
+// ============================================================
+
+window.LIVE_DATA = {
+  "B08D6NCQ1Z": {
+    "availability": "Auf Lager",
+    "image": "https://m.media-amazon.com/images/I/71f6Kt9coBL._AC_SL1500_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/71f6Kt9coBL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61iDoJTMyNL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61I91J46htL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61rOmRddh-L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61tHf3lLJeL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61CuqUlHf5L._AC_SL1500_.jpg"
+    ],
+    "page": "https://www.amazon.de/dp/B08D6NCQ1Z",
+    "price": "8.91",
+    "rating": "4.8",
+    "reviews": "32.944",
+    "title": "UGREEN USB C Kabel 100W Ladekabel USB-C PD 3.0 Schnellladekabel",
+    "updatedAt": "2026-10-06T10:00:39Z"
+  },
+  "B09GXRWQYQ": {
+    "availability": "Auf Lager",
+    "image": "https://m.media-amazon.com/images/I/61Erg3KU0CL._SL1500_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/61Erg3KU0CL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71TSylrSaUL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61CxIkzkYQL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/615ixJnrnRL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51pT4LLCJiL._SL1006_.jpg",
+      "https://m.media-amazon.com/images/I/71kFPNBBhpL._SL1500_.jpg"
+    ],
+    "page": "https://www.amazon.de/dp/B09GXRWQYQ",
+    "price": "10.19",
+    "rating": "4.5",
+    "reviews": "3.557",
+    "title": "USB-C to USB-C 3.1 Gen2 Cable 10Gbps Data Transfer, 100W 20V/5A 3.3ft USB Type C PD Fast Charging Cable 4K Video Output Compatible with Thunderbolt 3, MacBook Pro, Galaxy S21 1M, Smartphone",
+    "updatedAt": "2026-10-06T10:00:39Z"
+  },
+  "B0BCKHQGJN": {
+    "availability": "Auf Lager",
+    "image": "https://m.media-amazon.com/images/I/71vfIyTVo5L._AC_SL1500_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/71vfIyTVo5L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61PxOUqSvnL._AC_SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/611EfaNQGuL._AC_SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/61yD5PXk1oL._AC_SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/61WUpO9Y1NL._AC_SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/61LJX0y83YL._AC_SL1000_.jpg"
+    ],
+    "page": "https://www.amazon.de/dp/B0BCKHQGJN",
+    "price": "27.99",
+    "rating": "4.4",
+    "reviews": "61.002",
+    "title": "Kopfhörer Kabellos Bluetooth, Bluetooth 5.4 Kopfhörer, Tiefer Bass Ohrhörer",
+    "updatedAt": "2026-10-06T10:00:39Z"
+  },
+  "B0BR3L78XN": {
+    "availability": "Auf Lager",
+    "image": "https://m.media-amazon.com/images/I/814lZbU+YYL._AC_SL1500_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/814lZbU+YYL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71x5kuENkeL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71m3l8TyuKL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/7146Ch8X4+L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61LL7FkxqAL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/712VfTwPQrL._AC_SL1500_.jpg"
+    ],
+    "page": "https://www.amazon.de/dp/B0BR3L78XN",
+    "price": "8.48",
+    "rating": "4.6",
+    "reviews": "18.080",
+    "title": "INIU 240W USB C Kabel, [2Stück 2m] PD Schnellladekabel USB C auf USBC Kabel",
+    "updatedAt": "2026-10-06T10:00:39Z"
+  },
+  "B0BTYCRJSS": {
+    "availability": "Auf Lager",
+    "image": "https://m.media-amazon.com/images/I/5181ILcyQJL._AC_SL1500_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/5181ILcyQJL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71x61mE6wDL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61+vB+0y7fL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/518Y0jfy-9L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61O3vlwuOoL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61sqCT-DR-L._AC_SL1500_.jpg"
+    ],
+    "page": "https://www.amazon.de/dp/B0BTYCRJSS",
+    "price": "19.99",
+    "rating": "4.3",
+    "reviews": "116.182",
+    "title": "soundcore by Anker P20i Kabellose Bluetooth Kopfhörer in-Ear, 10mm Treiber",
+    "updatedAt": "2026-10-06T10:00:39Z"
+  },
+  "B0BW989F4Y": {
+    "availability": "Auf Lager",
+    "image": "https://m.media-amazon.com/images/I/61oh5AvOROL._AC_SL1500_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/61oh5AvOROL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/715-H9pNQEL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71O0vXExdGL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71g9Vzl70CL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/719j5yQJXLL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71sf1R6LHEL._AC_SL1500_.jpg"
+    ],
+    "page": "https://www.amazon.de/dp/B0BW989F4Y",
+    "price": "13.59",
+    "rating": "4.6",
+    "reviews": "3.590",
+    "title": "CAKOBLE USB C Kabel auf USB C 2M, USB 3.2 Gen2 Typ C ladekabel, 20 Gbps Datenübertragung, 100W 20V/5A Schnellladekabel,4K @@ 60Hz Videoübertragung für Laptop, Mobiltelefon, Monitor, Geräte",
+    "updatedAt": "2026-10-06T10:00:39Z"
+  },
+  "B0CJ538WPG": {
+    "availability": "Auf Lager",
+    "image": "https://m.media-amazon.com/images/I/71AQsgMSXGL._AC_SL1500_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/71AQsgMSXGL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81rujYErojL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71fsouPJ6lL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71FXlAtOvTL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71mbymzPHPL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71UXf094cwL._AC_SL1500_.jpg"
+    ],
+    "page": "https://www.amazon.de/dp/B0CJ538WPG",
+    "price": "23.99",
+    "rating": "4.3",
+    "reviews": "8.469",
+    "title": "Bluetooth 5.3 Kopfhörer, In Ear Kopfhörer Kabellos mit 4 Mic, 48H Tiefer Bass Spielzeit Wireless Earbud, LED-Anzeige, Bluetooth Ohrhörer mit ENC Noise Cancelling, IP7 Wasserdicht Kopfhörer Sport USB-C",
+    "updatedAt": "2026-10-06T10:00:39Z"
+  },
+  "B0CTH7L29Z": {
+    "availability": "Auf Lager",
+    "image": "https://m.media-amazon.com/images/I/71J9bdgehbL._AC_SL1500_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/71J9bdgehbL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71omWEAvAYL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61Mfj0JipJL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61v-sko8OZL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/612JqMCHrRL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81deSeRlH+L._AC_SL1500_.jpg"
+    ],
+    "page": "https://www.amazon.de/dp/B0CTH7L29Z",
+    "price": "32.99",
+    "rating": "4.5",
+    "reviews": "4.588",
+    "title": "JUOVI Power Bank, Tragbare Powerbank 45W 20000mAh Schnellladefunktion",
+    "updatedAt": "2026-10-06T10:00:39Z"
+  },
+  "B0D63H6KKV": {
+    "availability": "Auf Lager",
+    "image": "https://m.media-amazon.com/images/I/51SMg0amvSL._AC_SL1500_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/51SMg0amvSL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/715tl73VW9L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61MyIrbw5mL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/712F2sT8VmL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61hdmWdmOVL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61+eKej08GL._AC_SL1500_.jpg"
+    ],
+    "page": "https://www.amazon.de/dp/B0D63H6KKV",
+    "price": "32.99",
+    "rating": "4.2",
+    "reviews": "5.575",
+    "title": "NOBIS Power Bank, Powerbank 20000mAh, 45W Externe Handyakkus Schnellladen",
+    "updatedAt": "2026-10-06T10:00:39Z"
+  },
+  "B0D95W3L7X": {
+    "availability": "Auf Lager",
+    "image": "https://m.media-amazon.com/images/I/515AJpFfYQL._SL1500_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/515AJpFfYQL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61MsjI1dOCL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61DxshJWTJL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71-AVCK3MeL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71TDt+Wp5UL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61G1pcji21L._SL1500_.jpg"
+    ],
+    "page": "https://www.amazon.de/dp/B0D95W3L7X",
+    "price": "11.68",
+    "rating": "4.1",
+    "reviews": "50",
+    "title": "SKW USB-C auf USB-C 3.1 Kabel 10 Gbit/s, 4K Video Übertragung, 100W (5A) Schnellladekabel mit E-Marker, 1m – Hochgeschwindigkeit & zuverlässige Datenübertragung",
+    "updatedAt": "2026-10-06T10:00:39Z"
+  },
+  "B0DCYR5VNR": {
+    "availability": "Auf Lager",
+    "image": "https://m.media-amazon.com/images/I/71mXxvSK76L._AC_SL1500_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/71mXxvSK76L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71ODkkyohqL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71j1Yj5bSuL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61mJsM3jsQL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81TD9y+p5gL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/812315B2-JL._AC_SL1500_.jpg"
+    ],
+    "page": "https://www.amazon.de/dp/B0DCYR5VNR",
+    "price": "25.81",
+    "rating": "4.5",
+    "reviews": "6.185",
+    "title": "INIU 45W Power Bank, Klein 20000mAh Handyakkus mit Integriertem USB-C Kabel",
+    "updatedAt": "2026-10-06T10:00:39Z"
+  },
+  "B0F6LTV18Z": {
+    "availability": "Auf Lager",
+    "image": "https://m.media-amazon.com/images/I/61NhQsicOmL._AC_SL1500_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/61NhQsicOmL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/616n62-SUYL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61bNBNW42YL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81Ek8BwhupL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61x3mao9fSL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/510qvFXtk6L._AC_SL1500_.jpg"
+    ],
+    "page": "https://www.amazon.de/dp/B0F6LTV18Z",
+    "price": "18.04",
+    "rating": "4.4",
+    "reviews": "1.371",
+    "title": "Podoru Powerbank für Magsafe, 5000mAh Mini Wireless Power Bank für iPhone",
+    "updatedAt": "2026-10-06T10:00:39Z"
+  },
+  "B0FJL4CB6F": {
+    "availability": "Auf Lager",
+    "image": "https://m.media-amazon.com/images/I/81Wjy7+zEpL._SL1500_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/81Wjy7+zEpL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71dbfPs+FDL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71-1LZ0H9ML._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71sANqeX8IL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81lbx4JcWmL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81WtJK8pDmL._SL1500_.jpg"
+    ],
+    "page": "https://www.amazon.de/dp/B0FJL4CB6F",
+    "price": "8.99",
+    "rating": "4.8",
+    "reviews": "3.255",
+    "title": "RAVIAD 100W USB C auf USB C Kabel [2Stück 1M] 5A Schnellladekabel Ladekabel",
+    "updatedAt": "2026-10-06T10:00:39Z"
+  },
+  "B0FLY676TH": {
+    "availability": "Auf Lager",
+    "image": "https://m.media-amazon.com/images/I/51XfL5SNVIL._AC_SL1500_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/51XfL5SNVIL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/618mKc-owVL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71XNkxXSXeL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71gPiJLIOfL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/711h9tr2ItL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71FR-8fLKvL._AC_SL1500_.jpg"
+    ],
+    "page": "https://www.amazon.de/dp/B0FLY676TH",
+    "price": "24.99",
+    "rating": "4.4",
+    "reviews": "1.035",
+    "title": "AOGUERBE Powerbank für MagSafe, 10000mAh Magnetische Power Bank für iPhone",
+    "updatedAt": "2026-10-06T10:00:39Z"
+  },
+  "B0H8P8CNMF": {
+    "availability": "Auf Lager",
+    "image": "https://m.media-amazon.com/images/I/71DeEsbBzQL._AC_SL1500_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/71DeEsbBzQL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91X2PWyeknL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81wJITR1p1L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81FDjTgAh8L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71aIMYPbwQL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81vbR3seBVL._AC_SL1500_.jpg"
+    ],
+    "page": "https://www.amazon.de/dp/B0H8P8CNMF",
+    "price": "15.99",
+    "rating": "3.8",
+    "reviews": "4",
+    "title": "MORELOCO Bluetooth Kopfhörer, Kopfhörer Kabellos Bluetooth 5.4 In-Ear Earbuds mit 4 ENC Mikrofonen Geräuschunterdrückung, Tiefer Bass HiFi Sound, 40 Std. Gesamtspielzeit, IP7 Wasserdicht, Dual LED",
+    "updatedAt": "2026-10-06T10:00:39Z"
+  },
+  "B0HDQ3BZL4": {
+    "availability": "Auf Lager",
+    "image": "https://m.media-amazon.com/images/I/61wvg516GcL._AC_SL1446_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/61wvg516GcL._AC_SL1446_.jpg",
+      "https://m.media-amazon.com/images/I/61YWAUm9DkL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61TlIa376+L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/717dN2RfKPL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/616z0HretqL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61GZlDJr-1L._AC_SL1500_.jpg"
+    ],
+    "page": "https://www.amazon.de/dp/B0HDQ3BZL4",
+    "price": "10.99",
+    "rating": "4.4",
+    "reviews": "2.128",
+    "title": "Power Bank 20000 mAh 22.5 W PD3.0 QC4.0 Externer Handyakku PD20W Schnellladen Powerbank mit LCD-Display USB-C Ausgänge und Eingänge Tragbares Ladegerät mit Smartphones",
+    "updatedAt": "2026-10-06T10:00:39Z"
+  },
+  "B0HGWSGVB1": {
+    "availability": "Nur noch 1 auf Lager",
+    "image": "https://m.media-amazon.com/images/I/71iJM+l4XgL._AC_SL1500_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/71iJM+l4XgL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71dDlhD7SYL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81CZVdDrt5L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71KaEU2MoEL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81f90E8apWL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71QF67t2EFL._AC_SL1500_.jpg"
+    ],
+    "page": "https://www.amazon.de/dp/B0HGWSGVB1",
+    "price": "33.99",
+    "rating": "4.6",
+    "reviews": "33",
+    "title": "Offene Ohr Kabellose Ohrhörer, Sport Bluetooth mit Echtzeitübersetzung",
+    "updatedAt": "2026-10-06T10:00:39Z"
+  },
+  "B0HJC9BBFR": {
+    "availability": "Auf Lager",
+    "image": "https://m.media-amazon.com/images/I/61UJ6G4jJHL._AC_SL1500_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/61UJ6G4jJHL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/717yoxcba0L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71kGHuMzN5L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71YbXOlxKYL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71t0+sjT-mL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61JHW218v9L._AC_SL1500_.jpg"
+    ],
+    "page": "https://www.amazon.de/dp/B0HJC9BBFR",
+    "price": "19.99",
+    "rating": "4.4",
+    "reviews": "24.044",
+    "title": "2026 Kopfhörer Kabellos Bluetooth 5.4 Kopfhörer, 6D-Stereo Ohrhörer in Ear",
+    "updatedAt": "2026-10-06T10:00:39Z"
+  }
+};
